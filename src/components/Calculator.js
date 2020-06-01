@@ -31,12 +31,13 @@ const Calculator = () => {
 
 
   const regularModeCalc = (key) => {
+    let res = result
     if (inputStack.length != 0){
       let resStack = [...inputStack, result]
-      let res = eval(resStack.join('')) // result caclulation
+      res = eval(resStack.join('')) // result caclulation
       setResult(res)
     }
-    let arr = [result,key]
+    let arr = [res,key]
     setInputStack(arr)
     setCurrentResult(0)
   }
