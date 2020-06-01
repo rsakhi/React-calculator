@@ -1,0 +1,60 @@
+*{
+  font-size: 14px;
+}
+.dark-theme{
+    height: 700px;
+    color: #fff;
+    background-color: #000;
+}
+.dark-theme button {
+  background-color: #666;
+  color: #fff;
+}
+
+.calculator {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.side-btn {
+  float: left;
+  width: 48%;
+}
+
+.main {
+  float: right;
+  width: 52%;
+}
+.resultBox {
+  border: 1px solid gray;
+  height: 30px;
+  text-align: right;
+}
+
+.keys{
+  margin: 1px;
+  width: 23%;
+  border: 1px solid gray;
+}
+
+.w-75{
+  width: 80%;
+  display: inline-block;
+}
+
+.w-20 {
+  width: 20%;
+  display: inline-block;
+}
+
+button {
+  width: 33.3%;
+  display: inline-block;
+  height: 45px;
+
+}
+
+.opt-button {
+  width: 100%;
+}

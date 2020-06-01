@@ -1,0 +1,6 @@
+  export const r1 = [1,2,3]
+  export const r2 = [4,5,6]
+  export const r3 = [7,8,9]
+  export const r4 = ['Clear', 0, '=']
+  export const regularKeys = ['+', '-', '*', '/']
+  export const SciecKeys = ['sign', 'square', 'sqrt', 'cbrt']
